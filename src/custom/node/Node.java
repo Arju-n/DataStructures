@@ -25,6 +25,7 @@ public class Node<T extends Comparable<T>> {
         this.data = data;
     }
 
+
     @Override
     public String toString() {
         return this.data.toString();
